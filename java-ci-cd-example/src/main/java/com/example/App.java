@@ -1,13 +1,11 @@
 package com.example;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World 1234!" );
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+public class AppTest {
+    @Test
+    public void testApp() {
+        assertTrue(true, "This test should always pass.");
     }
 }
